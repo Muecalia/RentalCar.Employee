@@ -28,7 +28,7 @@ namespace RentalCar.Employees.Application.Handlers.Employees
             const string Operacao = "editar";
             try
             {
-                var employee = await _employeeRepository.GetEmployeeDetail(request.Id, cancellationToken);
+                var employee = await _employeeRepository.GetEmployee(request.Id, cancellationToken);
                 if (employee == null) 
                 {
                     _loggerService.LogWarning(MensagemError.NotFound(Objecto, request.Id));
