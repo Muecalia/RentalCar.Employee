@@ -1,5 +1,6 @@
 # RentalCar.Employee
 Sistema de gestão funcionários da loja de aluguer de carros
+
 # Language
 1. C#
 
@@ -24,15 +25,11 @@ Sistema de gestão funcionários da loja de aluguer de carros
 5. Down container: docker-compose down
 
 # Testes
-1. Unitario
+1. Unitario (Fluent Assertions)
 2. Integração
 
 # Messageria
 1. RabbitMq
-2. Kafka
-
-# Armazenamento
-1. Azure Blob Storage
 
 # CI/CD
 1. GitHub Actions
